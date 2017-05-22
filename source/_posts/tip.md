@@ -7,7 +7,7 @@ tags: [python,ucb,mc]
 
 when we try to type up,down,left,right in python3~,it doesn't work,so what how to deal with it~?
 	
-##just
+## just
 
 	easy_install readline
 	

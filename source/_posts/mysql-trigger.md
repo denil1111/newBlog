@@ -10,7 +10,7 @@ categories:
 ---
 做到sql-trigger的作业，老师给的例子是sql-server的例子，而我使用的是mysql，其中有较大区别。
 <!-- more -->
-##老师sqlserver的例子
+## 老师sqlserver的例子
 ```
 create trigger st1 on borrow
 after insert 
@@ -28,14 +28,14 @@ Begin
 End 
 ```
 
-##创建
+## 创建
 ```
 create trigger < trigger name > < when > < action >
 on < table name >
 for each row
 ```
 不同于之前的例子
-##与sqlserver的区别
+## 与sqlserver的区别
 1. 首先mysql中不推荐使用@<name>的临时变量，而且@<name>的变量不需要declare申明
 2. 变量赋值使用set < name >＝... 的形式,select < name >=< name2 >的形式不会赋值
 3. 要使用declare 变量，DELIMITER |   |DELIMITER ;把这个trigger包在里面
@@ -43,7 +43,7 @@ for each row
 5. mysql中不能使用print
 6. mysql中用trigger阻止insert一般使用让程序出错的方式，比如对一个不存在的表操作
 
-##我写的功能相似的mysql的trigger
+## 我写的功能相似的mysql的trigger
 ```
 DELIMITER |
 CREATE TRIGGER `st1` BEFORE INSERT ON `borrow`

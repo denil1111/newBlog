@@ -10,5 +10,5 @@ I spent a ***whole day*** making my blog look better!I tried to change the logo-
 
 
 
-##But my blog still look so ugly!!!!
+## But my blog still look so ugly!!!!
 

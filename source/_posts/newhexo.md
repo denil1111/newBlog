@@ -13,6 +13,6 @@ tags: hexo
 
 
 
-##参考
+## 参考
 《升级hexo》-－黄云坤
 >http://www.huangyunkun.com/2014/06/18/update-hexo/
